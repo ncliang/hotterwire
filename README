@@ -1,0 +1,32 @@
+WHAT IS HOTTERWIRE?
+
+Hotterwire is a Python script that uses the Hotwire API to answer the simple
+question: "when is the cheapest time to go to Maui for 5 days in September?".
+
+WHY?
+
+I have lots of vacation days. I am pretty flexible as to when I use them. I
+want to use them at a time when I can get the most bang for my buck.
+
+HOW?
+
+$ python hotterwire.py
+Usage: ./hotterwire.py --startdate=6/1/2014 --enddate=6/10/2014 \
+    --duration=3 --star=4.5 --destination=Wailea [--skip_weekends]
+
+Output:
+
+Found results:
+********************************************************************************
+price: 236.00
+checkin: 06/08/2014
+checkout: 06/10/2014
+booking link: http://www.hotwire.com/hotel/deeplink-details.jsp?resultId=...
+********************************************************************************
+price: 236.00
+checkin: 06/09/2014
+checkout: 06/11/2014
+booking link: http://www.hotwire.com/hotel/deeplink-details.jsp?resultId=...
+********************************************************************************
+...
+
